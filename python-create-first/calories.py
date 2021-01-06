@@ -1,0 +1,13 @@
+print("Today's date?")
+name = input()
+print("Breakfast calories?")
+first_number= int(input())
+print("Lunch calories?")
+second_number = int(input())
+print("Dinner calories?")
+third_number = int(input())
+print("Snack calories?")
+fourth_number = int(input())
+sum = first_number + second_number + third_number + fourth_number
+# print("Calorie content for"+ name +":"+ ("Sum " + str(sum)))
+print(f'Calorie content for {name}: {sum}')
